@@ -33,7 +33,7 @@ jobs:
       if: always()
       with:
         name: Build test results
-        path: */**/*.trx
+        path: FooBarQix.Tests/TestResults/*.trx
         reporter: dotnet-trx
         list-suites: all
         list-tests: all
