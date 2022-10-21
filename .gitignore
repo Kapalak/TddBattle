@@ -50,3 +50,10 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+/TddBattle/FooBarQix.Tests/obj/*
+/TddBattle/FooBarQix/obj/*
+/TddBattle/FooBarQix.Tests/bin/*
+/TddBattle/.vs/TddBattle/v17/*
+/TddBattle/.vs/TddBattle/DesignTimeBuild/*
+/TddBattle/FooBarQix/bin/*
