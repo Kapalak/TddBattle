@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FooBarQix", "FooBarQix\FooBarQix.csproj", "{94421666-E0C5-40D9-9DD8-5CE0FAC7D5A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FooBarQix", "FooBarQix\FooBarQix.csproj", "{94421666-E0C5-40D9-9DD8-5CE0FAC7D5A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FooBarQix.Tests", "FooBarQix.Tests\FooBarQix.Tests.csproj", "{8682330B-C226-4BDD-A109-BE828580BEF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FooBarQix.Tests", "FooBarQix.Tests\FooBarQix.Tests.csproj", "{8682330B-C226-4BDD-A109-BE828580BEF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bowling", "Bowling\Bowling.csproj", "{BEA28ACF-B81C-4C89-BF46-73C14EE9299E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bowling.Tests", "Bowling.Tests\Bowling.Tests.csproj", "{45FF626F-8349-4085-96AC-DAD9C336CE73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{8682330B-C226-4BDD-A109-BE828580BEF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8682330B-C226-4BDD-A109-BE828580BEF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8682330B-C226-4BDD-A109-BE828580BEF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEA28ACF-B81C-4C89-BF46-73C14EE9299E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEA28ACF-B81C-4C89-BF46-73C14EE9299E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEA28ACF-B81C-4C89-BF46-73C14EE9299E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEA28ACF-B81C-4C89-BF46-73C14EE9299E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45FF626F-8349-4085-96AC-DAD9C336CE73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45FF626F-8349-4085-96AC-DAD9C336CE73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45FF626F-8349-4085-96AC-DAD9C336CE73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45FF626F-8349-4085-96AC-DAD9C336CE73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
