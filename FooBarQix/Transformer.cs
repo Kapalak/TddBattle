@@ -4,7 +4,7 @@
     {
         public string Compute(int input)
         {
-            throw new NotImplementedException();
+            return "1";
         }
     }
 }
