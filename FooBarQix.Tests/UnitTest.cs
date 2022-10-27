@@ -2,19 +2,23 @@ namespace FooBarQix.Tests
 {
     public class UnitTest
     {
+
+        [TestCase(1, "1")]
+        [TestCase(2, "2")]
+        [TestCase(3, "FooFoo")]
+        [TestCase(13, "Foo")]
+        [TestCase(136, "Foo")]
         [Test]
-        public void TransformerComputeOutputString()
+        public void TransformerComputeReturnsExpected(int input, string expectedOutput)
         {
             // Arrange
-            var random = new Random();
-            int inputToTest = random.Next();
             var transformer = new Transformer();
 
             // Act
-            string result = transformer.Compute(inputToTest);
-
-            // Act & Assert
-            Assert.That(inputToTest.ToString(), Is.EqualTo(result));
+            string result = transformer.Compute(input);
+           
+            // Assert
+            Assert.AreEqual(expectedOutput, result);
         }
     }
 }
