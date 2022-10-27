@@ -2,9 +2,9 @@
 
 namespace FooBarQix
 {
-    public class FooBarQix
+    public class Transformer
     {
-        public string Compute(int input)
+        public string compute(int input)
         {
             throw new NotImplementedException();
         }

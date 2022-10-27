@@ -10,6 +10,16 @@
 		<EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
 	</PropertyGroup>
 
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+	  <WarningLevel>5</WarningLevel>
+	  <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+	  <WarningLevel>5</WarningLevel>
+	  <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+	</PropertyGroup>
+
 	<ItemGroup>
 	  <None Include="..\.editorconfig" Link=".editorconfig" />
 	</ItemGroup>
