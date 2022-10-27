@@ -12,6 +12,8 @@ namespace FooBarQix.Tests
         [TestCase(10, "Bar")]
         [TestCase(15, "FooBarBar")]
         [TestCase(51, "FooBar")]
+        [TestCase(7, "QixQix")]
+        [TestCase(21, "FooQix")]
         [Test]
         public void TransformerComputeReturnsExpected(int input, string expectedOutput)
         {
