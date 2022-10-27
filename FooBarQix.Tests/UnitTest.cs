@@ -2,16 +2,18 @@ namespace FooBarQix.Tests
 {
     public class UnitTest
     {
-
         [Test]
-        public void TransformerComputeThrowsNotImplementedException()
+        public void TransformerComputeOutputString()
         {
             // Arrange
-            int inputToTest = 0;
+            int inputToTest = 1;
             var transformer = new Transformer();
 
+            // Act
+            string result = transformer.Compute(inputToTest);
+
             // Act & Assert
-            var ex = Assert.Throws<NotImplementedException>(() => transformer.Compute(inputToTest));
+            Assert.That(result, Is.EqualTo("1"));
         }
     }
 }
