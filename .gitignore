@@ -57,3 +57,7 @@ dkms.conf
 /.vs/TddBattle/v17/*
 /.vs/TddBattle/DesignTimeBuild/*
 /FooBarQix/bin/*
+
+*/TestResults/*
+*/obj/*
+*/bin/*
