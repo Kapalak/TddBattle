@@ -1,4 +1,6 @@
-﻿namespace FooBarQix
+﻿using System.Diagnostics;
+
+namespace FooBarQix
 {
     public class FooBarQix
     {
@@ -6,6 +8,5 @@
         {
             throw new NotImplementedException();
         }
-
     }
 }
