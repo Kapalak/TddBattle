@@ -15,7 +15,8 @@ namespace FooBarQix.Tests
             var actualResult = fooBarQix.Compute(inputToTest);
 
             // Assert
-            Assert.AreEqual(expectedResult, actualResult);
+            //Assert.AreEqual(expectedResult, actualResult);
+            Assert.That(actualResult, Is.EqualTo(expectedResult));
         }
     }
 }

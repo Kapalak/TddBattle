@@ -4,22 +4,13 @@
 		<TargetFramework>net6.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
-	</PropertyGroup>
-
-	<PropertyGroup>
 		<EnableNETAnalyzers>true</EnableNETAnalyzers>
-	</PropertyGroup>
-
-	<PropertyGroup>
+		<AnalysisMode>AllEnabledByDefault</AnalysisMode>
+		<AnalysisLevel>latest</AnalysisLevel>
 		<EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <EditorConfigFiles Remove=".editorconfig" />
+	  <None Include="..\.editorconfig" Link=".editorconfig" />
 	</ItemGroup>
-
-	<ItemGroup>
-	  <None Include=".editorconfig" />
-	</ItemGroup>
-
 </Project>
