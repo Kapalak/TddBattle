@@ -58,6 +58,6 @@ dkms.conf
 /.vs/TddBattle/DesignTimeBuild/*
 /FooBarQix/bin/*
 
-*/TestResults/*
 */obj/*
+*/TestResults/*
 */bin/*
