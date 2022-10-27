@@ -8,6 +8,10 @@ namespace FooBarQix.Tests
         [TestCase(3, "FooFoo")]
         [TestCase(13, "Foo")]
         [TestCase(136, "Foo")]
+        [TestCase(5, "BarBar")]
+        [TestCase(10, "Bar")]
+        [TestCase(15, "FooBarBar")]
+        [TestCase(51, "FooBar")]
         [Test]
         public void TransformerComputeReturnsExpected(int input, string expectedOutput)
         {
@@ -20,5 +24,6 @@ namespace FooBarQix.Tests
             // Assert
             Assert.AreEqual(expectedOutput, result);
         }
-    }
+        
+      }
 }
