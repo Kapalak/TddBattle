@@ -1,10 +1,8 @@
-﻿using System.Diagnostics;
-
-namespace FooBarQix
+﻿namespace FooBarQix
 {
     public class Transformer
     {
-        public string compute(int input)
+        public string Compute(int input)
         {
             throw new NotImplementedException();
         }

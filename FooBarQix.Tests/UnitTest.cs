@@ -12,7 +12,7 @@ namespace FooBarQix.Tests
             var fooBarQix = new Transformer();
 
             // Act
-            var actualResult = fooBarQix.compute(inputToTest);
+            var actualResult = fooBarQix.Compute(inputToTest);
 
             // Assert
             //Assert.AreEqual(expectedResult, actualResult);
