@@ -4,19 +4,14 @@ namespace FooBarQix.Tests
     {
 
         [Test]
-        public void FooBarQixComputeZeroReturnsZero()
+        public void TransformerComputeThrowsNotImplementedException()
         {
             // Arrange
-            string expectedResult = "0";
             int inputToTest = 0;
-            var fooBarQix = new Transformer();
+            var transformer = new Transformer();
 
-            // Act
-            var actualResult = fooBarQix.Compute(inputToTest);
-
-            // Assert
-            //Assert.AreEqual(expectedResult, actualResult);
-            Assert.That(actualResult, Is.EqualTo(expectedResult));
+            // Act & Assert
+            var ex = Assert.Throws<NotImplementedException>(() => transformer.Compute(inputToTest));
         }
     }
 }
