@@ -5,39 +5,28 @@
         public string Compute(int input)
         {
             string result = string.Empty;
-            if (input % 3 == 0)
-            {
-                result += "FooFoo";
-            }
-            else if (input.ToString().Contains("3"))
-            {
-                result += "Foo";
-            }
-            if (input % 3 == 0 && input.ToString().Contains("5") && input % 5 == 0)
-            {
-                result = "FooBarBar";
-            }
-            else if (input.ToString().Contains("5") && input % 3 == 0)
-            {
-                result = "FooBar";
-            }
-            else if (input.ToString().Contains("5") && input % 5 == 0)
-            {
-                result = "BarBar";
-            }
-            else if (input.ToString().Contains("5"))
-            {
-                result += "Bar";
-            }
-            else if (input % 5 == 0)
-            {
-                result += "Bar";
-            }
-            
+            result = genericFunction(input, 3, "Foo", result);
+            result = genericFunction(input, 5, "Bar", result);
+            result = genericFunction(input, 7, "Qix", result);
 
-            if (result == string.Empty)
-                return input.ToString();
+
+
+
+            return result == string.Empty ? input.ToString() : result;
+        }
+        private string genericFunction(int input,int n, string chaine, string result)
+        {
+            if (input % n == 0)
+            {
+                result += chaine;
+
+            }
+             if (input.ToString().Contains(n.ToString()))
+            {
+                result += chaine;
+            }
             return result;
+
         }
     }
 }
